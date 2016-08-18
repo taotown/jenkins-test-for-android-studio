@@ -32,7 +32,7 @@ android {
                         def outputFile = output.outputFile
                         if (outputFile != null && outputFile.name.endsWith('.apk')) {
                             def fileName = "gradle.apk"
-                            output.outputFile = new File("/Users/Trevor/Desktop/APK", fileName)
+                            output.outputFile = new File("/Users/Shared/Jenkins/Home/workspace/Android_Test/jenkinstest/app/build/outputs/apk", fileName)
                         }
                     }
                 }
